@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+/* ----- main 페이지 ----- */
+#main {
+  width: 100%;
+  height: 700px;
+  display: flex;
+}
+#main > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main h1 {
+  font-size: 70px;
+  margin-top: 250px;
+}
+#main h2 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+#main img {
+  width: 100%;
+  height: 100%;
+}
+.center {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+}
+/* ----- list 페이지 ----- */
+
+#list > .center {
+  display: flex;
+}
+
+#l_left {
+  width: 50%;
+  height: 100%;
+}
+#l_left > div {
+  width: 100%;
+  height: 70%;
+  margin-top: 33%;
+  position: relative;
+  overflow: hidden;
+}
+
+#box1 {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+#box1 > div {
+  position: absolute;
+  width: 70%;
+  height: 5%;
+  top: 20%;
+  right: -70%;
+  background-color: black;
+}
+#box2 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0%;
+  right: -50%;
+  background-color: #f2abab;
+}
+#box3 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  background-color: #f6f8c5;
+}
+#box4 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  background-color: #505c8c;
+}
+#l_right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#l_right > div {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  top: 200px;
+  left: -100%;
+}
+#l_right > div > h1 {
+  margin: 30px 0 0 20px;
+  font-size: 70px;
+}
+#l_right > div li {
+  margin: 70px 0 0 80px;
+  font-size: 50px;
+}
+
+/* ----- about 페이지 ----- */
+
+#about > .center {
+  display: flex;
+}
+#a_left {
+  width: 50%;
+  height: 100%;
+}
+#a_left > div {
+  width: 100%;
+  height: 70%;
+  margin-top: 200px;
+  position: relative;
+  overflow: hidden;
+}
+#a_img1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: -100%;
+}
+#a_img2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 1px;
+  left: 100%;
+}
+#a_right {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#a_right > div {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  top: 200px;
+  left: -100%;
+}
+#a_right > div > h1 {
+  margin: 15px 0 0 20px;
+  font-size: 70px;
+}
+#a_right > div > ul > li {
+  margin: 30px 0 0 60px;
+  font-size: 30px;
+}
+
+.sub_list > li {
+  margin: 20px 0 0 0px;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+/* ----- skill 페이지 ----- */
+
+#skill > .center {
+  display: flex;
+}
+#s_left {
+  width: 50%;
+  height: 100%;
+}
+#s_left > div {
+  width: 100%;
+  height: 70%;
+  margin-top: 200px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+#s_img1 {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: -50%;
+}
+#s_img2 {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: -50%;
+}
+
+#s_right {
+  width: 50%;
+  height: 100%;
+}
+#s_right > div {
+  width: 100%;
+  height: 70%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+#s_box1 {
+  width: 100%;
+  height: 60%;
+}
+#box1_header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box1_header > h1 {
+  font-size: 70px;
+}
+#graph {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#graph > div {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+#graph > div > h2 {
+  width: 25%;
+  margin-left: 10%;
+}
+.graph_b {
+  width: 55%;
+  height: 50%;
+  border: 1px solid black;
+}
+#bar1 {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+#bar2 {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+#bar3 {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+#bar4 {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+#bar5 {
+  width: 0%;
+  height: 100%;
+  background-color: red;
+}
+#s_box2 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#s_box2 > div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#s_box2 h1 {
+  font-size: 70px;
+}
+#s_box2 img {
+  width: 12%;
+  height: 80%;
+  margin-right: 2%;
+}
+
+/* ----- portfolio 페이지 ----- */
+
+#portfolio header {
+  width: 100%;
+  height: 10%;
+}
+#portfolio header h1 {
+  font-size: 70px;
+  text-align: center;
+}
+#portfolio article {
+  width: 100%;
+  height: 80%;
+}
+.port_img {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.port_img_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.port_img_left img {
+  width: 80%;
+  height: 80%;
+}
+.port_img_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.port_img_right img {
+  width: 40%;
+  height: 80%;
+}
+.port_text {
+  width: 100%;
+  height: 40%;
+  background-color: #f6f8c5;
+}
+.port_text p {
+  padding: 20px 0 0 80px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 50px;
+}
+
+/* 탭추가 */
+#box {
+  /* width: 95%;
+  height: 600px; */
+  border: 1px solid #000;
+  position: relative;
+}
+input {
+  display: none;
+}
+label {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 5%;
+  background-color: #f2abab;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+label:hover {
+  background-color: #f6f8c5;
+  color: #505c8c;
+  transition: 0.5s;
+}
+
+#box > section {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  display: none;
+}
+#con1 {
+  z-index: 500;
+}
+#con2 {
+  z-index: 400;
+}
+#con3 {
+  z-index: 300;
+}
+#con4 {
+  z-index: 200;
+}
+#con5 {
+  z-index: 100;
+}
+
+#box #tab1:checked ~ #con1,
+#box #tab2:checked ~ #con2,
+#box #tab3:checked ~ #con3,
+#box #tab4:checked ~ #con4,
+#box #tab5:checked ~ #con5 {
+  display: block;
+}
+
+/* ----- portfolio2 페이지 ----- */
+
+/* ----- portfolio3 페이지 ----- */
+
+.port3_img {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.port3_img img {
+  width: 70%;
+  height: 90%;
+}
+/* ----- portfolio4 페이지 ----- */
+
+/* ----- 마지막 페이지 ----- */
+#finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: #8d9acd;
+}
