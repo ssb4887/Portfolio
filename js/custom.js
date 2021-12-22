@@ -16,7 +16,7 @@ function doLayout() {
 
 $(function () {
   doLayout(); //페이지가 로딩이 되면 함수를 호출
-
+  $("#box > label > #on").addClass("on");
   // mouse wheel event
   $("#wrap").mousewheel(function (e) {
     if (!moving) {
@@ -44,7 +44,7 @@ $(function () {
         $(".aside .item").eq(num).addClass("on");
         console.log(t);
       });
-      if ((t < -1070) & (t > -1080)) {
+      if (num == 1) {
         $("#box1 div").stop().animate({ right: "0%" }, 2500);
         $("#box2").stop().animate({ right: "0%" }, 1400);
         $("#box3").stop().animate({ left: "0%" }, 1000);
@@ -57,7 +57,7 @@ $(function () {
         $("#box4").stop().animate({ right: "-50%" }, 500);
         $("#l_right > div").stop().animate({ left: "-100%" }, 500);
       }
-      if ((t < -2150) & (t > -2160)) {
+      if (num == 2) {
         $("#a_img1").stop().animate({ left: "2px" }, 1400);
         $("#a_img2").stop().animate({ left: "-2px" }, 1400);
         $("#a_right > div").stop().animate({ left: "0%" }, 2000);
@@ -67,7 +67,7 @@ $(function () {
         $("#a_right > div").stop().animate({ left: "-100%" }, 500);
       }
 
-      if ((t < -3220) & (t > -3230)) {
+      if (num == 3) {
         $("#s_img1").stop().animate({ left: "0%" }, 1400);
         $("#s_img2").stop().animate({ right: "0%" }, 1400);
 
@@ -87,5 +87,11 @@ $(function () {
         $("#bar5").stop().animate({ width: "0%" }, 1500);
       }
     }
+  });
+
+  $("#box > label > div").click(function () {
+    // var i = $(this).index();
+    $("#box > label > div").removeClass();
+    $(this).addClass("on");
   });
 });

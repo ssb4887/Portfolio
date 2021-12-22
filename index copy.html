@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/needpopup.css" />
+
+    <!-- 기본 라이브러리  -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <section id="main" class="page index">
+        <div>
+          <h1>WELCOME MY PORTFOLIO</h1>
+          <h2>Seok Subin</h2>
+        </div>
+        <div><img src="images/main_img.png" /></div>
+      </section>
+
+      <section id="list" class="page loading">
+        <div class="center">
+          <div id="l_left">
+            <div>
+              <div id="box1">
+                <div></div>
+              </div>
+              <div id="box2"></div>
+              <div id="box3"></div>
+              <div id="box4"></div>
+            </div>
+          </div>
+          <div id="l_right">
+            <div>
+              <h1>list of contents</h1>
+              <ul>
+                <li>ABOUT ME</li>
+                <li>SKILL</li>
+                <li>PORTFOLIO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="page loading">
+        <div class="center">
+          <div id="a_left">
+            <div>
+              <img id="a_img1" src="images/ABOUT1.png" alt="" />
+              <img id="a_img2" src="images/ABOUT2.png" alt="" />
+            </div>
+          </div>
+          <div id="a_right">
+            <div>
+              <h1>ABOUT ME</h1>
+              <ul>
+                <li>
+                  PROFILE
+                  <ul class="sub_list">
+                    <li>석수빈</li>
+                    <li>1991.12.04</li>
+                    <li>010.8543.4887</li>
+                    <li>ssb4887@naver.com</li>
+                  </ul>
+                </li>
+                <li>
+                  EDUCATION
+                  <ul class="sub_list">
+                    <li>
+                      2021. 09 ~ 2022. 01 자바기반 백엔드 개발자 양성 과정 수료
+                    </li>
+                    <li>
+                      2021. 09 ~ 2021. 12 UI/UX기반 프론트엔드 개발자 양성 과정
+                      수료
+                    </li>
+                    <li>2010. 03 ~ 2017. 02 동아대학교 전자공학과 졸업</li>
+                  </ul>
+                </li>
+                <li>
+                  CAREER
+                  <ul class="sub_list">
+                    <li>2018. 12 ~ 2020. 01 로보스타 엔지니어</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill" class="page loading">
+        <div class="center">
+          <div id="s_left">
+            <div>
+              <img id="s_img1" src="images/SKILL1.png" alt="" />
+              <img id="s_img2" src="images/SKILL2.png" alt="" />
+            </div>
+          </div>
+          <div id="s_right">
+            <div>
+              <div id="s_box1">
+                <div id="box1_header">
+                  <h1>SKILL</h1>
+                </div>
+                <div id="graph">
+                  <div>
+                    <h2>HTML</h2>
+                    <div class="graph_b">
+                      <div id="bar1"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>CSS</h2>
+                    <div class="graph_b">
+                      <div id="bar2"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>jQuery</h2>
+                    <div class="graph_b">
+                      <div id="bar3"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>JavaScript</h2>
+                    <div class="graph_b">
+                      <div id="bar4"></div>
+                    </div>
+                  </div>
+                  <div>
+                    <h2>Java</h2>
+                    <div class="graph_b">
+                      <div id="bar5"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="s_box2">
+                <div>
+                  <h1>I CAN DO</h1>
+                </div>
+                <div>
+                  <img src="images/HTML.png" alt="" />
+                  <img src="images/CSS.png" alt="" />
+                  <img src="images/JavaScript.png" alt="" />
+                  <img src="images/jQuery.png" alt="" />
+                  <img src="images/Java.png" alt="" />
+                  <img src="images/Python.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="page loading">
+        <div class="center">
+          <header>
+            <h1>Portfolio</h1>
+          </header>
+          <!-- Tab Box -->
+          <article id="box">
+            <input id="tab1" type="radio" name="tabs" checked />
+            <label for="tab1">COOKIT</label>
+            <input id="tab2" type="radio" name="tabs" />
+            <label for="tab2">CIDIZ(진행중)</label>
+            <input id="tab3" type="radio" name="tabs" />
+            <label for="tab3">BACK-END 게시판</label>
+            <input id="tab4" type="radio" name="tabs" />
+            <label for="tab4">ERP-PROJECT(진행중)</label>
+            <input id="tab5" type="radio" name="tabs" />
+            <label for="tab5" style="border-right: 0">준비 중</label>
+
+            <!-- 첫번째 Tab -->
+            <section id="con1">
+              <div class="port_img">
+                <div class="port_img_left">
+                  <img src="images/port_left.png" alt="" />
+                </div>
+                <div class="port_img_right">
+                  <img src="images/port_right_1.png" alt="" />
+                  <img src="images/port_right_2.png" alt="" />
+                </div>
+              </div>
+              <div class="port_text">
+                <p>
+                  제작 기간 : 2021.11.01 ~ 2021.11.09<br />
+                  제작물 : 메인페이지, 서브페이지<br />
+                  음식 구매 홈페이지인 만큼 기존 홈페이지에 필요하다고 느낀<br />
+                  추가될 메뉴라는 항목을 추가함으로써 새롭게 디자인하였습니다.
+                </p>
+
+                <div class="portfolio1">
+                  <a
+                    href="http://ssb4887.dothome.co.kr/#"
+                    data-needpopup-show="#custom-popup1"
+                  >
+                    MORE VIEWING
+                  </a>
+                </div>
+                <div
+                  class="needpopup"
+                  id="custom-popup1"
+                  data-needpopup-options="custom"
+                >
+                  <img width="900" src="images/cookit.png" />
+                </div>
+              </div>
+            </section>
+
+            <!-- 두번째 Tab -->
+            <section id="con2">
+              <div class="port_img">
+                <div class="port_img_left">
+                  <img src="images/CIDIZ_main.png" alt="" />
+                </div>
+                <div class="port_img_right">
+                  <img src="images/cidiz_right1.png" alt="" />
+                  <img src="images/cidiz_right2.png" alt="" />
+                </div>
+              </div>
+              <div class="port_text">
+                <p>
+                  제작 기간 : 2021.11.22 ~ 2021.12.19<br />
+                  제작물 : 메인페이지, 서브페이지<br />
+                  기존 홈페이지의 콘텐츠를 참고하였지만,<br />
+                  저희 팀이 원하는 디자인으로 새롭게 구성했습니다. <br />또한
+                  게시판, 로그인 기능, 회원가입 기능, 제품 구매 등의 백엔드
+                  기능을 구현하여 적용했습니다.
+                </p>
+                <div class="portfolio2">
+                  <a
+                    href="http://ssb4887.dothome.co.kr/#"
+                    data-needpopup-show="#custom-popup2"
+                  >
+                    MORE VIEWING
+                  </a>
+                </div>
+                <div
+                  class="needpopup"
+                  id="custom-popup2"
+                  data-needpopup-options="custom"
+                >
+                  <img width="900" src="images/cidiz_right1.png" />
+                </div>
+              </div>
+            </section>
+
+            <!-- 세번째 Tab -->
+            <section id="con3">
+              <div class="port_img">
+                <div class="port_img_left">
+                  <img src="images/portfolio_root.png" alt="" />
+                </div>
+                <div class="port_img_right">
+                  <img src="images/bbs_1.png" alt="" />
+                  <img src="images/bbs_2.png" alt="" />
+                </div>
+              </div>
+              <div class="port_text">
+                <p>
+                  제작 기간 : 2021.11.24 ~ 2021.12.03<br />
+                  제작물 : 메인페이지, 로그인, 회원가입, 게시판<br />
+                  BOOTSTRAP을 이용하여 간단한 화면을 구현하였고,<br />
+                  Java와 MySQL을 이용하여 로그인 기능, 회원가입 기능, 게시판을
+                  구현하여 적용했습니다.
+                </p>
+                <div class="portfolio3">
+                  <a
+                    href="http://ssb4887.dothome.co.kr/#"
+                    data-needpopup-show="#custom-popup3"
+                  >
+                    MORE VIEWING
+                  </a>
+                </div>
+                <div
+                  class="needpopup"
+                  id="custom-popup3"
+                  data-needpopup-options="custom"
+                >
+                  <img width="900" src="images/bbs.png" />
+                </div>
+              </div>
+            </section>
+
+            <!-- 네번째 Tab -->
+            <section id="con4">
+              <div class="port_img">
+                <div class="port_img_left">
+                  <img src="images/port_left.png" alt="" />
+                </div>
+                <div class="port_img_right">
+                  <img src="images/port_right_1.png" alt="" />
+                  <img src="images/port_right_2.png" alt="" />
+                </div>
+              </div>
+              <div class="port_text">
+                <p>
+                  제작 기간 : 2021.12.03 ~ 2021.12.31<br />
+                  제작물 : 메인페이지, 서브페이지<br />
+                  가상의 회사를 설립하여 설립한 회사의 ERP를 팀프로젝트로
+                  제작하였습니다. <br />BOOTSTRAP으로 화면을 구현하였고, 설립한
+                  회사에 필요한 기능을 선정하여 적용했습니다.
+                </p>
+                <div class="portfolio4">
+                  <a
+                    href="http://ssb4887.dothome.co.kr/#"
+                    data-needpopup-show="#custom-popup4"
+                  >
+                    MORE VIEWING
+                  </a>
+                </div>
+                <div
+                  class="needpopup"
+                  id="custom-popup4"
+                  data-needpopup-options="custom"
+                >
+                  <img width="900" src="images/port_right_1.png" />
+                </div>
+              </div>
+            </section>
+
+            <!-- 다섯번째 Tab -->
+            <section id="con5">
+              <div class="port_img">
+                <div class="port_img_left">
+                  <img src="images/port_left.png" alt="" />
+                </div>
+                <div class="port_img_right">
+                  <img src="images/port_right_1.png" alt="" />
+                  <img src="images/port_right_2.png" alt="" />
+                </div>
+              </div>
+              <div class="port_text">
+                <p>
+                  제작 기간 : 준비 중<br />
+                  제작물 : 준비 중<br />
+                  준비 중
+                </p>
+                <div class="portfolio5">
+                  <a
+                    href="http://ssb4887.dothome.co.kr/#"
+                    data-needpopup-show="#custom-popup5"
+                  >
+                    MORE VIEWING
+                  </a>
+                </div>
+                <div
+                  class="needpopup"
+                  id="custom-popup5"
+                  data-needpopup-options="custom"
+                >
+                  <img width="900" src="images/port_right_1.png" />
+                </div>
+              </div>
+            </section>
+          </article>
+        </div>
+      </section>
+
+      <section id="finish" class="page loading">
+        <h1>Thank you for reviewing my Portfolio</h1>
+      </section>
+    </div>
+
+    <!--팝업.js-->
+
+    <script src="js/needpopup.min.js" type="text/javascript"></script>
+
+    <script>
+      needPopup.config.custom = {
+        removerPlace: "outside",
+        closeOnOutside: false,
+        onShow: function () {
+          console.log("needPopup is shown");
+        },
+        onHide: function () {
+          console.log("needPopup is hidden");
+        },
+      };
+      needPopup.init();
+    </script>
+  </body>
+</html>
